@@ -35,7 +35,7 @@ class FlatteningArrayTest < Minitest::Test
 
   def test_array_including_a_hash
     flatten_method = FlatteningArray.flatten([1, 2, {3 => 4, 5 => 6}])
-    assert_equal "The input is not an array", flatten_method
+    assert_equal [1, 2, {3 => 4, 5 => 6}], flatten_method
   end
 
 end
