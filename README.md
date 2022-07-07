@@ -1,7 +1,7 @@
 # flattening_array
 
-###Descrition
+### Descrition
 Write an algorithm to flatten an arbitrarily nested array of values.
 
-###Implementation
+### Implementation
 The flattening method has been implemented with the *concat* and *recursive* methods
